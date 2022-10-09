@@ -11,6 +11,8 @@ docker exec [options] name_of_your_container command [command_options]
 ```
 
 This command has several interesting options:
+|Option| Do |
+|------|------|
 | `-ti`| allows to launch the container in interactive mode (stdin, stdout, stderr linked to your terminal) |
 | `-e` | allows to define environment variables |
 | `-d` | allows to launch the command in detached mode |
