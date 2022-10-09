@@ -11,9 +11,9 @@ docker exec [options] name_of_your_container command [command_options]
 ```
 
 This command has several interesting options:
-    `-ti` allows to launch the container in interactive mode (stdin, stdout, stderr linked to your terminal), 
-    `-e` allows to define environment variables, 
-    `-d` allows to launch the command in detached mode
+| `-ti`| allows to launch the container in interactive mode (stdin, stdout, stderr linked to your terminal) |
+| `-e` | allows to define environment variables |
+| `-d` | allows to launch the command in detached mode |
 
 Try executing the `ls -a` command inside your running container, you should get the following output:
 ```
