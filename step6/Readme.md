@@ -134,8 +134,8 @@ docker volume rm [options] volume [volume...]
 
 You can bind a volume to a container during the execution of the docker run command with the `-v` option.
 
-Examples:
-    Physical volume: `docker run -v /home/local_directory/:./container_directory/`, 
+Examples:  
+    Physical volume: `docker run -v /home/local_directory/:./container_directory/`  
     virtual volume: `docker run -v name_of_the_virtual_volume:./container_directory`.
 
 Let's try to practice with volumes:
@@ -154,7 +154,14 @@ docker run -d -p 8080:8080 --name adminer_container --link mysql_container:db ad
 
 This command will create a configuration panel for your database. Notice the --link option that allows to link the adminer container to the database without needed to open database ports.
 
-- Now, connect to adminer using [localhost:8080](http://localhost:8080) with the root credentials (in the database input enter "mysql" because the root account created is a general mysql account and not only for your database) and create a new database labelled `my_db` and in it you can create a new table `my_table` with an `id` column.
+- Now, connect to adminer using [localhost:8080](http://localhost:8080)
+```
+Server: db  
+Username: root  
+Password: example  
+Database: 
+```
+create a new database labelled `my_db` and in it you can create a new table `my_table` with an `id` column.
 
 - Then you can do `docker rm -f adminer_container mysql_container`. You can see that the mysql directory created by the run command is still here with all its content.
 
