@@ -36,7 +36,6 @@ The --name option allows to name your container.
 If you want more informations about the `run` command and its associated options in the [documentation](https://docs.docker.com/engine/reference/run/).
 The documentation is quite complete so don't hesitate to have a look on it.
 
-<!-->5 min<-->
 #### Monitor your Images and Containers [~10 min]
 
 - In order to insure that your container is running, you can type the following command:
@@ -208,8 +207,7 @@ If you run `docker ps -a` and `docker images`, nothing should be listed anymore.
 You can check both the [documentation](https://docs.docker.com/engine/reference/commandline/rm/) of the `docker rm` command and the [documentation](https://docs.docker.com/engine/reference/commandline/rmi/) of the `docker rmi` command..
 
 
-<!-->8 min<-->
-#### Execute commands in Containers
+#### Execute commands in Containers [~10 min]
 
 Before executing commands inside a container, we need a new container running on our system, for that run a new Nginx container.
 
@@ -274,8 +272,7 @@ When you close close the interaction with the container, it is killed and needs 
 
 You can check the [documentation](https://docs.docker.com/engine/reference/commandline/attach/) of the `docker attach` command.
 
-<!-->2 min<-->
-#### Debug your containers
+#### Debug your containers [~2 min]
 
 - To monitor all processes running in your container you can type the command:
 

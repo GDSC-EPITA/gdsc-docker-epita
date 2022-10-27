@@ -1,3 +1,5 @@
+### Installation [~5 min]
+
 - get `Docker`:
     - Debian based:
         ```

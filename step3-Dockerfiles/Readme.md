@@ -1,6 +1,4 @@
-
-<!-->25 min<-->
-#### Build your first images with Dockerfiles
+#### Build your first images with Dockerfiles [~25 min]
 
 Now that you know how to run and manage your images and containers, let's see how to create your own images.
 Dockerfiles are a specific type of text files to optimize images creation.

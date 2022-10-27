@@ -1,6 +1,5 @@
 
-<!-->10 min<-->
-#### Manage your Images with Registries
+#### Manage your Images with Registries [~10 min]
 
 A registry is a virtual system of storage space that is used by Docker for your images.
 As you saw before, when you want to use an official Docker image, Docker pulls this image from Docker official registry to your local registry.
@@ -37,7 +36,7 @@ Create a registry server using the command above and let's play with it.
 Create a new PHP file named `main.php`:
 
 ```php
-<?php echo 'Long live King Stephan'; ?>
+<?php echo 'Long live GDSC Epita'; ?>
 ```
 
 Then create a `Dockerfile` containing these instructions:
@@ -100,8 +99,7 @@ docker run -it --rm --name php_container localhost:5000/my_php_image
 
 Don't hesitate to check the docker [documentation](https://docs.docker.com/registry/) for registries :).
 
-<!-->10 min<-->
-#### Keep persisting data with Volumes
+#### Keep persisting data with Volumes [~15 min]
 
 A container is stateful. But an image is not. If you start an image containing a database, and you update this database, the data will be lost when you will delete the container. If you restart this image, the database will be restored to its initial state. To avoid that and keep our data, we need to use volumes.
 A volume is a shared space between your computer and your containers. Volumes are not deleted by default when you delete a container.
