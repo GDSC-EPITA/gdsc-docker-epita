@@ -17,17 +17,16 @@ The --name option allows to name your container.
 
 `run`:
 
-- Allows to launch containers from images
-This command has several interesting options:
+Allows to launch containers from images, This command has several interesting options:
 |Option| Do |
 |------|------|
-|`-p`|  allows to bind your container's ports to your PC|
-|`-d`|  allows to launch your container in detached mode (similar to a background mode)|
-| `-it`|  allows to launch the container in interactive mode (stdin, stdout, stderr linked to your terminal)|
-|`-e`|  allows to define environment variables|
-|`-v`|  mount a volume in the container (we will develop this notion later)|
-|`--name`|  give a name to the container|
-|`--rm`|  when a containers exits this option clean the container and its associated data and virtual volumes|
+|`-p`|  Bind your container's ports to your PC |
+|`-d`|  Launch your container in detached mode (similar to a background mode) |
+| `-it`|  Launch the container in interactive mode (stdin, stdout, stderr linked to your terminal) |
+|`-e`|  Define environment variables |
+|`-v`|  mount a volume in the container (we will develop this notion later) |
+|`--name`|  give a name to the container |
+|`--rm`|  when a containers exits this option clean the container and its associated data and virtual volumes |
 
 
 If you want more informations about the `run` command and its associated options in the [documentation](https://docs.docker.com/engine/reference/run/).
@@ -217,9 +216,9 @@ docker exec [options] name_of_your_container command [command_options]
 This command has several interesting options:
 |Option| Do |
 |------|------|
-| `-ti`| allows to launch the container in interactive mode (stdin, stdout, stderr linked to your terminal) |
-| `-e` | allows to define environment variables |
-| `-d` | allows to launch the command in detached mode |
+| `-ti`| Launch the container in interactive mode (stdin, stdout, stderr linked to your terminal) |
+| `-e` | Define environment variables |
+| `-d` | Launch the command in detached mode |
 
 Try executing the `ls -a` command inside your running container, you should get the following output:
 ```
@@ -294,9 +293,11 @@ docker logs [options] [name_of_your_container]
 ```
 
 You can use the options:
-    `--details` to add several informations, 
-    `-n` to restrict to a precise number of line from the end of the logs, 
-    `--since` which restrict the logs display from a specific date.
+|Option| Do |
+|------|------|
+|`--details` | Add several informations | 
+|`-n` | Restrict to a precise number of line from the end of the logs |
+|`--since` | Restrict the logs display from a specific date. |
 
 After running the command on your container, you should get the following output:
 ```
