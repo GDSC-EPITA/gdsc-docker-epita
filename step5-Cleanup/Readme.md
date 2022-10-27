@@ -11,9 +11,8 @@ By default, it will not delete running containers or used images.
 
 You can check the [documentation](https://docs.docker.com/engine/reference/commandline/system_prune/) for `docker system prune` command.
 
-### IV. Final Project
 
-### V. To go further
+### IV. To go further
 
  - [`HEALTHCHECK`](https://docs.docker.com/engine/reference/builder/#healthcheck)
  - [`USER`](https://docs.docker.com/engine/reference/builder/#user)
@@ -31,8 +30,7 @@ You can check the [documentation](https://docs.docker.com/engine/reference/comma
      # ....
      ```
 
- <!-->1 min<-->
-#### Import and Export Images
+#### Import and Export Images [~1 min]
 
 As a container is only a file system with metadatas, you can easily export and reimport your containers as a .tar archive.
 
