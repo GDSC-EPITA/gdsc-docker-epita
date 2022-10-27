@@ -1,14 +1,7 @@
----
-title: TP Docker
-tags: TP Assistants
----
-
-### I. Docker
+### Docker
 ![](https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png)
 
-<!-->5 min lecture + 5 min présentation + questions<-->
-
-#### What is Docker ?
+#### What is Docker ? [~5 min]
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 ![](https://docs.docker.com/engine/images/architecture.svg)
 When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects.
