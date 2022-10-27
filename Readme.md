@@ -1,4 +1,21 @@
-### Docker
+### GDSC Docker Workshop
+
+In this workshop, you will learn to use docker to put services and applications into containers. You will even learn how to write your Dockerfiles, to put your own applications in containers in the future.
+
+
+- Part 1: Live presentation of what is docker and why you should use it (for those not present a quick summary is avaible bellow)
+- Part 2: Practical composed of 5 different steps to better understand and use docker
+
+#### Prerequisite:
+- Basic knowledge of the how CLI works and how to execute commands
+
+#### Summary:
+- [Step 1 Installation](step1-Install/Readme.md)
+- [Step 2 Basic command (creating, deleting, running, executing, logging)](step2-Basic/Readme.md)
+- [Step 3 Dockerfiles](step3-Dockerfiles/Readme.md)
+- [Step 4 Advanced (registeries, volumes)](step4-Advanced/Readme.md)
+- [Step 5 Cleanup](step5-Cleanup/Readme.md)
+
 ![](https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png)
 
 #### What is Docker ? [~5 min]
@@ -27,3 +44,13 @@ Containers are an abstraction at the app layer that packages code and dependenci
 - They use Docker to push their applications into a test environment and execute automated and manual tests.
 - When developers find bugs, they can fix them in the development environment and redeploy them to the test environment for testing and validation.
 - When testing is complete, getting the fix to the customer is as simple as pushing the updated image to the production environment. When an image is recreated, only the modified layers are updated.
+
+#### Credit
+
+This workshop was inspired by the 2021 / 2022 promotion of epita students in the TCOM specialization and the assistant team of thoses promotions, special thanks to:
+- TCOM 2021 Tom Moulard, Martin Huvelle, Adrien Nebon-Carle
+- TCOM 2022 Corentin Lefevre-Pontalis, Adrien Devouassoux
+
+EPITA GDSC 2023:
+- Alexandre Dias
+- Mickael Chau
