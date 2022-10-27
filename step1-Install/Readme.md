@@ -1,5 +1,6 @@
 ### Installation [~5 min]
 
+#### Linux (Recommended)
 - get `Docker`:
     - Debian based:
         ```
@@ -37,4 +38,7 @@
     - `docker run hello-world` (no `sudo`, It's annoying but secured)
 - If anything fails during the installation, do not panic and call an Assistant
 
+#### Windows
+[Use the website Play with Docker](https://labs.play-with-docker.com/)
 
+- Add new instance
