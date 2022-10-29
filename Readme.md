@@ -47,7 +47,7 @@ Containers are an abstraction at the app layer that packages code and dependenci
 
 #### Credit
 
-This workshop was inspired by the 2021 / 2022 promotion of epita students in the TCOM specialization and the assistant team of thoses promotions, special thanks to:
+This workshop was made by the GDSC of EPITA and inspired by the 2021 / 2022 promotion of epita students in the TCOM specialization and the assistant team of thoses promotions, special thanks to:
 - TCOM 2021 Tom Moulard, Martin Huvelle, Adrien Nebon-Carle
 - TCOM 2022 Corentin Lefevre-Pontalis, Adrien Devouassoux
 - EPITA GDSC 2023 Alexandre Dias, Mickael Chau
