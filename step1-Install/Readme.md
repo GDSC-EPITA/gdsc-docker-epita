@@ -38,7 +38,10 @@
     - `docker run hello-world` (no `sudo`, It's annoying but secured)
 - If anything fails during the installation, do not panic and call an Assistant
 
-#### Windows
+#### Mac / Windows
 [Use the website Play with Docker](https://labs.play-with-docker.com/)
+- Add a new instance
 
-- Add new instance
+If the website is not working or saying that too many people are connected:
+- Follow this [tutorial](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview) to install a virtual machine running a linux (ubuntu)
+- Open a console and follow the linux instructions for debian based distributions.
