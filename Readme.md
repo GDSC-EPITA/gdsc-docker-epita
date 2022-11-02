@@ -13,7 +13,7 @@ In this workshop, you will learn to use docker to put services and applications 
 - [Step 1 Installation](step1-Install/Readme.md)
 - [Step 2 Basic command (creating, deleting, running, executing, logging)](step2-Basic/Readme.md)
 - [Step 3 Dockerfiles](step3-Dockerfiles/Readme.md)
-- [Step 4 Advanced (registeries, volumes)](step4-Advanced/Readme.md)
+- [Step 4 Advanced (registries, volumes)](step4-Advanced/Readme.md)
 - [Step 5 Cleanup](step5-Cleanup/Readme.md)
 
 ![](https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png)
