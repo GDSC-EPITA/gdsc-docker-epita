@@ -254,7 +254,7 @@ We can also run a command inside a container during the execution of the docker 
 docker run ubuntu ls -a
 ```
 
-Now try running a Ubuntu container in interactive mode with the `bash` command. You should use the correct option so that your container is deleted when closed. Try some shell commands that you learned last year. To quit the interactive mode, you can just use `ctrl+d`.
+Now try running a Ubuntu container in interactive mode with the `bash` command. You should use the correct option so that your container is deleted when closed. Try some shell commands that you learned. To quit the interactive mode, you can just use `ctrl+d`.
 
 You can check the [documentation](https://docs.docker.com/engine/reference/commandline/exec/) of the `docker exec` command.
 
